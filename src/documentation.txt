@@ -1,0 +1,4 @@
+# Bug: Tailwind classes were not reflecting in my code
+# Solution: I noticed that I didnt import index.css in the App component
+# Date: [28/08/2023]
+# Developer: [Adams Faisal Omokugbo]
