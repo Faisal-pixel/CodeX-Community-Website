@@ -2,3 +2,8 @@
 # Solution: I noticed that I didnt import index.css in the App component
 # Date: [28/08/2023]
 # Developer: [Adams Faisal Omokugbo]
+
+# Bug: When I gave flex to a parent element containing an anchor tag, it took the whole width of its parent.
+# Solution: Wrapped the anchor tag with a div
+# Date: [29/08/2023]
+# Developer: [Adams Faisal Omokugbo]
