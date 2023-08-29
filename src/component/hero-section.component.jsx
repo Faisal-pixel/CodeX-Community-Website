@@ -3,7 +3,7 @@ import {ReactComponent as HeroSVG} from "../assets/hero-section.svg"
 const HeroSection = () => {
     return <>
         <section id="hero">
-            <div className="container mx-auto bg-primaryWhite flex flex-col space-y-0 md:flex-row px-[4%] py-[5rem] md:space-x-2">
+            <div className="container mx-auto bg-primaryWhite flex flex-col space-y-0 md:flex-row px-[7%] py-[5rem] md:space-x-2">
                 <div className="basis-1/2 flex-1 justify-center flex flex-col space-y-6">
                     <div className="space-y-2 text-center md:text-left">
                         <h2 className="font-bold text-5xl">Welcome to CodeX:</h2>
