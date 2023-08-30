@@ -3,6 +3,7 @@ import HeroSection from "../../component/hero-section.component";
 import NavigationComponent from "../../component/navigation.component";
 import OurKeyFeatures from "../../component/our-key-features.component";
 import About from "../../component/About";
+import Why from "../../component/Home/Why";
 const HomePage = () => {
     return<>
         <div className="bg-primaryWhite">
@@ -10,6 +11,7 @@ const HomePage = () => {
         <HeroSection />
         <About/>
         <OurKeyFeatures />
+        <Why />
         <FeaturedBlogs />
         </div>
     </>
