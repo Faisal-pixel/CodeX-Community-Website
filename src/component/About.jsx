@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CodexLogo from "../assets/codex_logo_black.svg";
+import CodexLogo from "../assets/codex_logo_black.png";
 function About() {
   return (
     <section className="bg-bgBlue">
