@@ -12,7 +12,6 @@ const HomePage = () => {
         <HeroSection />
         <About/>
         <OurKeyFeatures />
-        <Why />
         <FeaturedBlogs />
         <Footer/>
         </div>
