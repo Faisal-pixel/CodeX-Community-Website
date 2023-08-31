@@ -4,7 +4,7 @@ import {ReactComponent as CodeXLogoSVG} from "../assets/codex-logo.svg"
 const NavigationComponent = () => {
     // You should make the container fixed so it won't be scorllable. I dont 'know y it's transparent
     return <>
-        <nav className="relative container bg-primaryWhite shadow-md mx-auto px-[4%] py-4">
+        <nav className="fixed top-0 left-0 w-full z-10 bg-primaryWhite shadow-md ring-offset-2 mx-auto px-[4%] py-4">
             <div className="flex row justify-between items-center">
                 <div className="logo">
                     <CodeXLogoSVG />
