@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import {ReactComponent as CodeXLogoSVG} from "../assets/codex-logo.svg"
 
 const NavigationComponent = () => {
+    // You should make the container fixed so it won't be scorllable. I dont 'know y it's transparent
     return <>
         <nav className="relative container bg-primaryWhite shadow-md mx-auto px-[4%] py-4">
             <div className="flex row justify-between items-center">
