@@ -6,16 +6,19 @@ import About from "../../component/About";
 import Why from "../../component/Home/Why";
 import Footer from "../../component/Footer";
 const HomePage = () => {
-    return<>
-        <div className="bg-primaryWhite">
+  return (
+    <>
+      <div className="bg-primaryWhite">
         <NavigationComponent />
         <HeroSection />
-        <About/>
+        <About />
         <OurKeyFeatures />
+        <Why />
         <FeaturedBlogs />
-        <Footer/>
-        </div>
+        <Footer />
+      </div>
     </>
-}
+  );
+};
 
 export default HomePage;
