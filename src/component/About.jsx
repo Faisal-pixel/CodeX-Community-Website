@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CodexLogo from "../assets/codex_logo_black.png";
+import JoinCodexComponent from "./join-codex-component";
 function About() {
   return (
-    <section className="bg-bgBlue">
+    <section id="about-us" className="bg-bgBlue">
       <div className="relative container flex md:flex-row flex-col mx-auto px-[4%] md:py-24 py-8  md:gap-10 gap-0">
         <div className="md:w-3/6 h-100 w-full ">
           <img src={CodexLogo} alt="" className="w-full h-full object-none" />
@@ -27,9 +28,9 @@ function About() {
             Join CodeX today and unleash your full potential in a supportive and
             dynamic environment.
           </p>
-          <Link className="rounded-lg text-white hover:bg-red-700 bg-primaryBlack px-5 py-2  w-fit md:mx-0 mx-auto">
-            Join Codex
-          </Link>
+          <div>
+            <JoinCodexComponent />
+          </div>
         </div>
       </div>
     </section>
